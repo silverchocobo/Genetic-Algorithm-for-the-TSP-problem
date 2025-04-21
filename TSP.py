@@ -4,16 +4,16 @@ from google.colab import drive
 
 
 #Lê e converte linhas dos arquivos em dicionários através da biblioteca pandas
-berlin52_df = pd.read_csv("berlin52.txt", sep=" ", header=None, names=["id", "x", "y"], on_bad_lines='skip')
+berlin52_df = pd.read_csv("../TSP_instances/berlin52.txt", sep=" ", header=None, names=["id", "x", "y"], on_bad_lines='skip')
 berlin52_dict = berlin52_df.set_index("id").to_dict(orient="index")
 
-eil51_df = pd.read_csv("eil51.txt", sep=" ", header=None, names=["id", "x", "y"], on_bad_lines='skip')
+eil51_df = pd.read_csv("../TSP_instances/eil51.txt", sep=" ", header=None, names=["id", "x", "y"], on_bad_lines='skip')
 eil51_dict = eil51_df.set_index("id").to_dict(orient="index")
 
-pr152_df = pd.read_csv("pr152.txt", sep=" ", header=None, names=["id", "x", "y"], on_bad_lines='skip')
+pr152_df = pd.read_csv("../TSP_instances/pr152.txt", sep=" ", header=None, names=["id", "x", "y"], on_bad_lines='skip')
 pr152_dict = pr152_df.set_index("id").to_dict(orient="index")
 
-rat99_df = pd.read_csv("rat99.txt", sep=" ", header=None, names=["id", "x", "y"], on_bad_lines='skip')
+rat99_df = pd.read_csv("../TSP_instances/rat99.txt", sep=" ", header=None, names=["id", "x", "y"], on_bad_lines='skip')
 rat99_dict = rat99_df.set_index("id").to_dict(orient="index")
 
 #Exibição dos dicinários
