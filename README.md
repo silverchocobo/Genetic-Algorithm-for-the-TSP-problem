@@ -22,3 +22,9 @@ repeat
 until an individual is fit enough or enough time has passed
 return the best individual in population, according to fitness
 ```
+
+## Declaração Matemática do problema
+
+Considerando que é um problema de otimização combinatória que busca encontrar a rota mais curta que visita todas as cidades de um conjunto: 
+
+![Untitled](https://github.com/user-attachments/assets/6a6aeb00-4fde-4a10-ad4e-ee8eb1cb6a86)
