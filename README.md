@@ -27,4 +27,4 @@ return the best individual in population, according to fitness
 
 Considerando que é um problema de otimização combinatória que busca encontrar a rota mais curta que visita todas as cidades de um conjunto: 
 
-![Untitled](https://github.com/user-attachments/assets/6a6aeb00-4fde-4a10-ad4e-ee8eb1cb6a86)
+![Captura de tela 2025-04-21 014539](https://github.com/user-attachments/assets/302ad6e3-20d5-4abd-b14f-e727d34a30be)
