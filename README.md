@@ -8,7 +8,7 @@ The problem requires us to calculate the best route to visit a list of cities fr
 
 TSP is fully observable, sequential, single-agent, deterministic, static, discrete, and known. It has a large number of possible solutions, and to find the best one, we will use a genetic algorithm, whose abstraction can be represented by the pseudocode below (RUSSELL; NORVIG, 2022, p. 106):
 
-'''
+```
 function GENETIC-ALGORITHM(population, fitness) returns an individual
 repeat
   weights ← WEIGH-BY(population, fitness)
@@ -21,4 +21,4 @@ repeat
   population ← new_population
 until an individual is fit enough or enough time has passed
 return the best individual in population, according to fitness
-'''
+```
